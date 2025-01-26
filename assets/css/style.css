@@ -1,0 +1,571 @@
+
+
+
+body{
+    background-color: #0f0c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ccc;
+    letter-spacing: 0.2px;
+}
+#page-wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    height:  180px;
+    margin-bottom: 10px;
+}
+.logo{
+  padding-top: 72px;
+  margin-bottom: 10px;
+}
+
+.top-nav ul li {
+    float: left;
+    margin-right: 10px;
+}
+.top-nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+}
+.top-nav ul li a:hover{
+    color: #d71400;
+}
+#main-content{
+     margin-bottom: 365px;
+}
+#left-content{
+    width: 663px;
+    float: 	left;
+}
+.page-info h1{
+    font-size: 50px;
+    color: #d71400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.page-info p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.posters ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#sidebar{
+    width: 310px;
+    float: 	right;
+}
+.sneak-preview, .ads{
+    margin-bottom: 10px;
+}
+.ads-1 {
+    width: 150px;
+    float: left;
+}
+.ads-2 {
+    width: 150px;
+    float: right;
+}
+#footer-col-one{
+    width: 315px;
+    float: left;
+    margin-right: 30px;
+}
+#footer-col-two{
+    width: 315px;
+    float: left;
+
+}
+.footer-info h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-info h2 span{
+    color:#d71400;
+}
+.footer-info h3{
+    color: #d71400;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#datetime{
+    color: #8e8e8c;
+    margin-bottom: 10px;
+}
+.footer-info p{
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.footer-info p a{
+    color: #d71400;
+    text-decoration: none;
+}
+.footer-info p a:hover{
+    text-decoration: underline;
+}
+#footer-col-three{
+
+    width: 315px;
+    float: right;
+}
+.footer-nav ul li{
+    margin-bottom: 10px;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-nav ul li a:hover{
+    color: #d71400;
+}
+
+.copyrights{
+    color: #8e8e8c;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/*****************************************************************
+SINGLE CONTRIBUTION PAGE STYLE
+*********************************************************************/
+
+.contribution-thumb{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.contribution-detailes{
+    width: 486px;
+    float: right;
+}
+.contribution-detailes h2{
+    color: #d71400;
+    font-size: 28px;
+}
+.contribution-detailes ul li{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}   
+.contribution-detailes ul li span{
+    display: inline-block ;
+    width: 85px;
+    vertical-align: top;
+}
+.contribution-detailes ul li span.About{
+     
+    width: 400px ;
+    line-height: 20px;
+}
+/*********************************************************************************
+                        CONTACT US PAGE STYLE
+*****************************************************************************************/
+
+.forms h2{
+    color: #d71400;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.forms ul li {
+    margin-bottom: 10px;
+}
+.textfield, .textarea{
+    width: 590px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+}
+.textarea{
+     resize: none;
+     height: 120px;
+}
+.btns{
+    background-color: #d71400;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/********************************************************************************
+                  SUBCRIPTION PAGE STYLE
+**********************************************************************************/
+
+.subscription-forms ul li{
+    color: #fff;
+    font-size: 18px;
+}
+.subscription-forms ul li:nth-child(13){
+    border-bottom: 1px solid #8e8e8c;
+
+}
+.subscription-forms ul li:nth-child(14){
+    font-size: 12px;
+}
+
+/***********************************************************************************
+           ADVERTISIE STYLE PAGE
+************************************************************************************/
+
+.Advertise h5, h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.Advertise h3{
+    margin-top: 78px;
+    margin-bottom: 20px;
+}
+.Advertise ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.Advertise ul li span{
+    display: inline-block;
+    width: 230px;
+}
+.Advertise h4{
+    font-size: 25px;
+    color: #d71400;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+/***********************************************************************************
+                      HPME STYLE PAGE 
+**********************************************************************************/
+
+.home-poster {
+    width: 315px;
+    float: left;
+}
+.home-poster h2 {
+    color: #d71400;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.home-poster p, .mini-poster ul li p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+.home-poster p a{
+    color: #d71400;
+    font-size: 22px;
+    text-decoration: none;
+}
+.home-poster p a:hover{
+    text-decoration: underline;
+}
+.mini-poster {
+    width: 315px;
+    float: right;
+}
+.mini-poster ul li {
+    margin-bottom: 10px;
+}
+.mini-poster ul li p a{
+    color: #fff;
+    text-decoration: none;
+}
+.mini-poster ul li p a:hover{
+    text-decoration: underline;
+}
+/**************************************************************************
+                  BANNER PAGE STYLE
+***********************************************************************************/
+
+.main-banner{
+       margin-bottom: 40px;
+}
+.banner{
+    position: relative;
+}
+.social-icons{
+   position:absolute;
+   bottom: 0;
+   left: -65px;
+}
+.main-banner h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main-banner p{
+    color: #fff;
+    font-size: 16px;
+}
+.main-banner p a{
+    color: #d71400;
+    text-decoration: none;
+    
+}
+.main-banner p a:hover{
+    text-decoration: underline;
+}
+.border{
+    border-bottom: 2px solid #8e8e8c;
+    margin-bottom: 5px;
+    
+}
+.sidebar-heading h1{
+    font-size: 35px;
+    color: #d71400;
+    margin-bottom: 10px;
+   margin-top: 30px;
+}
+/**************************************************************************************************
+                 blog page style
+*******************************************************************************************/
+
+
+
+
+
+
+body {
+    background-color: #0f0c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ccc;
+    letter-spacing: 0.2px;
+}
+#page-wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 180px;
+    margin-bottom: 10px;
+}
+.logo{
+    padding-top: 72px;
+    margin-bottom: 10px;
+}
+.top-nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+.top-nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+}
+.top-nav ul li a:hover {
+    color: #d71400;
+}
+section{
+    background-color: #fff;
+
+}
+.down{
+    margin-bottom: 365px;
+}
+#sec-one{
+    
+    width: 183px;
+    float: left;
+    margin-right: 20px;
+}
+.sial li{
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+.colum-1 ul{
+    margin-left: 20px;
+}
+.colum-1 ul li h2{
+    color: #d71400;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.colum-1 ul li p{
+    color: #fff;
+
+}
+.colum-1 ul li a{
+    color: #d71400;
+    text-decoration: none;
+}
+.colum-1 ul li a:hover{
+    text-decoration: underline;
+}
+
+#sec-two{
+    width: 545px;
+    float: left;
+    margin-left: 10px ;
+}
+.sectwo ul {
+    margin-bottom: 15px;
+}
+.sectwo ul li h1{
+    color: #d71400;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sectwo ul li p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.sectwo ul li:nth-child(4){
+    color: #0f0c1c;
+
+}
+.sectwo ul li  a{
+    color: #d71400;
+    text-decoration: none;
+}
+.sectwo ul li a:hover{
+    text-decoration: underline;
+}
+#sec-three{
+    width: 213px;
+    float: right;
+}
+#first-right{
+    margin-top: 25px;
+}
+.hussan{
+    margin-top: 50px;
+   margin-bottom: 10px;
+}
+.hussan ul li {
+    color: #0f0c1c;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.hussan ul li span{
+    color: #d71400;
+}
+.hassan ul li:first-child{
+    padding-top: 10px;
+}
+.hassan ul li{
+    margin-bottom: 10px;
+}
+.hassan ul li {
+       color: #0f0c1c;
+}
+.hassan ul li span{
+    color: #d71400;
+    font-size: 12px;
+}
+.last-image{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+#footer-col-one {
+    width: 315px;
+    float: left;
+    margin-right: 30px;
+}
+#footer-col-two {
+    width: 315px;
+    float: left;
+}
+
+.footer-info h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-info h2 span {
+    color: #d71400;
+}
+.footer-info h3 {
+    color: #d71400;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-info p.datetime {
+    color: #8e8e8c;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    color: #fff;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-info p a {
+    color: #d71400;
+    text-decoration: none;
+}
+
+.footer-info p a:hover {
+    text-decoration: underline;
+}
+#footer-col-three {
+    width: 315px;
+    float: right;
+}
+
+.footer-nav ul li h2{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footer-nav ul li p{
+    color: #d71400;
+}
+.copyrights p {
+    color: #8e8e8c;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.inside-left{
+        width: 500px;
+        float: left;
+        width: 183px;
+}
+.inside-right{
+        width: 500px;
+        float: right;
+        width: 175px;
+}
+.inside-left a {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.inside-right a {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 22px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.saram{
+    border-top: 5px solid #d71400;
+}
+.inside-left a:hover{
+    color: #d71400;
+    text-decoration: underline;
+}
+.inside-right a:hover{
+    color: #d71400;
+    text-decoration: underline;
+}
